@@ -7,23 +7,49 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		622B858F26414C27006E012B /* RemoteImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 622B858E26414C27006E012B /* RemoteImage.swift */; };
+		622B859126415109006E012B /* RecipeInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 622B859026415109006E012B /* RecipeInfo.swift */; };
+		623D278A2647D13000C1E68E /* CoreDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 623D27892647D13000C1E68E /* CoreDataManager.swift */; };
 		6241CE0F26341CA000AE3EBF /* Reciplease2App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6241CE0E26341CA000AE3EBF /* Reciplease2App.swift */; };
-		6241CE1126341CA000AE3EBF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6241CE1026341CA000AE3EBF /* ContentView.swift */; };
 		6241CE1326341CA200AE3EBF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6241CE1226341CA200AE3EBF /* Assets.xcassets */; };
 		6241CE1626341CA200AE3EBF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6241CE1526341CA200AE3EBF /* Preview Assets.xcassets */; };
-		6241CE1826341CA200AE3EBF /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6241CE1726341CA200AE3EBF /* Persistence.swift */; };
-		6241CE1B26341CA200AE3EBF /* Reciplease2.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 6241CE1926341CA200AE3EBF /* Reciplease2.xcdatamodeld */; };
+		6241CE2426341F8800AE3EBF /* CookingListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6241CE2326341F8800AE3EBF /* CookingListView.swift */; };
+		6246AFB42636C920000CEBA6 /* SearchResultsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6246AFB32636C920000CEBA6 /* SearchResultsView.swift */; };
+		6246AFB72636D2BD000CEBA6 /* RecipeRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6246AFB62636D2BD000CEBA6 /* RecipeRow.swift */; };
+		624AA1D32635610A00F462B7 /* RecipeService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 624AA1D22635610A00F462B7 /* RecipeService.swift */; };
+		624AA1D626356D3D00F462B7 /* View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 624AA1D526356D3D00F462B7 /* View.swift */; };
+		624AA1E626358A9300F462B7 /* FavoritesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 624AA1E526358A9300F462B7 /* FavoritesView.swift */; };
+		624AA1EA26358D4800F462B7 /* APIKeys.swift in Sources */ = {isa = PBXBuildFile; fileRef = 624AA1E926358D4800F462B7 /* APIKeys.swift */; };
+		624AA1F026358E3800F462B7 /* Recipe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 624AA1EF26358E3800F462B7 /* Recipe.swift */; };
+		624B24A226396011009F9B01 /* RecipesData.json in Resources */ = {isa = PBXBuildFile; fileRef = 624B24A126396011009F9B01 /* RecipesData.json */; };
+		62B06E6E265BA3C600FE7E69 /* RecipesContainer.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 62B06E6C265BA3C600FE7E69 /* RecipesContainer.xcdatamodeld */; };
+		62B06E7D265E5E7900FE7E69 /* FavoriteEntity+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62B06E7B265E5E7900FE7E69 /* FavoriteEntity+CoreDataClass.swift */; };
+		62B06E7E265E5E7900FE7E69 /* FavoriteEntity+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62B06E7C265E5E7900FE7E69 /* FavoriteEntity+CoreDataProperties.swift */; };
+		62D4B0FA26820875006BBB11 /* SafariView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62D4B0F926820875006BBB11 /* SafariView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		622B858E26414C27006E012B /* RemoteImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = RemoteImage.swift; path = Reciplease2/Views/RemoteImage.swift; sourceTree = SOURCE_ROOT; };
+		622B859026415109006E012B /* RecipeInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeInfo.swift; sourceTree = "<group>"; };
+		623D27892647D13000C1E68E /* CoreDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataManager.swift; sourceTree = "<group>"; };
 		6241CE0B26341CA000AE3EBF /* Reciplease2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Reciplease2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6241CE0E26341CA000AE3EBF /* Reciplease2App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Reciplease2App.swift; sourceTree = "<group>"; };
-		6241CE1026341CA000AE3EBF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		6241CE1226341CA200AE3EBF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6241CE1526341CA200AE3EBF /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		6241CE1726341CA200AE3EBF /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
-		6241CE1A26341CA200AE3EBF /* Reciplease2.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Reciplease2.xcdatamodel; sourceTree = "<group>"; };
 		6241CE1C26341CA200AE3EBF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6241CE2326341F8800AE3EBF /* CookingListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CookingListView.swift; sourceTree = "<group>"; };
+		6246AFB32636C920000CEBA6 /* SearchResultsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchResultsView.swift; sourceTree = "<group>"; };
+		6246AFB62636D2BD000CEBA6 /* RecipeRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeRow.swift; sourceTree = "<group>"; };
+		624AA1D22635610A00F462B7 /* RecipeService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeService.swift; sourceTree = "<group>"; };
+		624AA1D526356D3D00F462B7 /* View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = View.swift; sourceTree = "<group>"; };
+		624AA1E526358A9300F462B7 /* FavoritesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritesView.swift; sourceTree = "<group>"; };
+		624AA1E926358D4800F462B7 /* APIKeys.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIKeys.swift; sourceTree = "<group>"; };
+		624AA1EF26358E3800F462B7 /* Recipe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Recipe.swift; path = Reciplease2/Data/Recipe.swift; sourceTree = SOURCE_ROOT; };
+		624B24A126396011009F9B01 /* RecipesData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = RecipesData.json; sourceTree = "<group>"; };
+		62B06E6D265BA3C600FE7E69 /* RecipesContainer.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = RecipesContainer.xcdatamodel; sourceTree = "<group>"; };
+		62B06E7B265E5E7900FE7E69 /* FavoriteEntity+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "FavoriteEntity+CoreDataClass.swift"; sourceTree = "<group>"; };
+		62B06E7C265E5E7900FE7E69 /* FavoriteEntity+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "FavoriteEntity+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		62D4B0F926820875006BBB11 /* SafariView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,11 +83,14 @@
 			isa = PBXGroup;
 			children = (
 				6241CE0E26341CA000AE3EBF /* Reciplease2App.swift */,
-				6241CE1026341CA000AE3EBF /* ContentView.swift */,
-				6241CE1226341CA200AE3EBF /* Assets.xcassets */,
-				6241CE1726341CA200AE3EBF /* Persistence.swift */,
+				624AA1E926358D4800F462B7 /* APIKeys.swift */,
 				6241CE1C26341CA200AE3EBF /* Info.plist */,
-				6241CE1926341CA200AE3EBF /* Reciplease2.xcdatamodeld */,
+				6241CE1226341CA200AE3EBF /* Assets.xcassets */,
+				624AA1DD26356D5700F462B7 /* Views */,
+				624AA1DF26356D6000F462B7 /* ViewModels */,
+				624AA1DB26356D4E00F462B7 /* CoreData */,
+				624AA1D826356D4100F462B7 /* Extensions */,
+				624AA1ED26358D4C00F462B7 /* Data */,
 				6241CE1426341CA200AE3EBF /* Preview Content */,
 			);
 			path = Reciplease2;
@@ -73,6 +102,56 @@
 				6241CE1526341CA200AE3EBF /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		624AA1D826356D4100F462B7 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				624AA1D526356D3D00F462B7 /* View.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		624AA1DB26356D4E00F462B7 /* CoreData */ = {
+			isa = PBXGroup;
+			children = (
+				62B06E7C265E5E7900FE7E69 /* FavoriteEntity+CoreDataProperties.swift */,
+				62B06E7B265E5E7900FE7E69 /* FavoriteEntity+CoreDataClass.swift */,
+				62B06E6C265BA3C600FE7E69 /* RecipesContainer.xcdatamodeld */,
+			);
+			path = CoreData;
+			sourceTree = "<group>";
+		};
+		624AA1DD26356D5700F462B7 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				6241CE2326341F8800AE3EBF /* CookingListView.swift */,
+				6246AFB32636C920000CEBA6 /* SearchResultsView.swift */,
+				6246AFB62636D2BD000CEBA6 /* RecipeRow.swift */,
+				622B859026415109006E012B /* RecipeInfo.swift */,
+				62D4B0F926820875006BBB11 /* SafariView.swift */,
+				624AA1E526358A9300F462B7 /* FavoritesView.swift */,
+				622B858E26414C27006E012B /* RemoteImage.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		624AA1DF26356D6000F462B7 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				623D27892647D13000C1E68E /* CoreDataManager.swift */,
+				624AA1D22635610A00F462B7 /* RecipeService.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		624AA1ED26358D4C00F462B7 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				624AA1EF26358E3800F462B7 /* Recipe.swift */,
+				624B24A126396011009F9B01 /* RecipesData.json */,
+			);
+			path = Data;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -132,6 +211,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				624B24A226396011009F9B01 /* RecipesData.json in Resources */,
 				6241CE1626341CA200AE3EBF /* Preview Assets.xcassets in Resources */,
 				6241CE1326341CA200AE3EBF /* Assets.xcassets in Resources */,
 			);
@@ -144,10 +224,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6241CE1826341CA200AE3EBF /* Persistence.swift in Sources */,
-				6241CE1126341CA000AE3EBF /* ContentView.swift in Sources */,
+				6246AFB42636C920000CEBA6 /* SearchResultsView.swift in Sources */,
+				62B06E6E265BA3C600FE7E69 /* RecipesContainer.xcdatamodeld in Sources */,
+				622B859126415109006E012B /* RecipeInfo.swift in Sources */,
+				623D278A2647D13000C1E68E /* CoreDataManager.swift in Sources */,
+				62B06E7E265E5E7900FE7E69 /* FavoriteEntity+CoreDataProperties.swift in Sources */,
+				622B858F26414C27006E012B /* RemoteImage.swift in Sources */,
+				624AA1D32635610A00F462B7 /* RecipeService.swift in Sources */,
+				62B06E7D265E5E7900FE7E69 /* FavoriteEntity+CoreDataClass.swift in Sources */,
+				6246AFB72636D2BD000CEBA6 /* RecipeRow.swift in Sources */,
 				6241CE0F26341CA000AE3EBF /* Reciplease2App.swift in Sources */,
-				6241CE1B26341CA200AE3EBF /* Reciplease2.xcdatamodeld in Sources */,
+				624AA1E626358A9300F462B7 /* FavoritesView.swift in Sources */,
+				62D4B0FA26820875006BBB11 /* SafariView.swift in Sources */,
+				6241CE2426341F8800AE3EBF /* CookingListView.swift in Sources */,
+				624AA1D626356D3D00F462B7 /* View.swift in Sources */,
+				624AA1F026358E3800F462B7 /* Recipe.swift in Sources */,
+				624AA1EA26358D4800F462B7 /* APIKeys.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -205,7 +297,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -260,7 +352,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -280,7 +372,7 @@
 				DEVELOPMENT_TEAM = 2T8KN29479;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = Reciplease2/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -288,7 +380,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = hquart.Reciplease2;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -302,7 +394,7 @@
 				DEVELOPMENT_TEAM = 2T8KN29479;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = Reciplease2/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -310,7 +402,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = hquart.Reciplease2;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -338,13 +430,13 @@
 /* End XCConfigurationList section */
 
 /* Begin XCVersionGroup section */
-		6241CE1926341CA200AE3EBF /* Reciplease2.xcdatamodeld */ = {
+		62B06E6C265BA3C600FE7E69 /* RecipesContainer.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
-				6241CE1A26341CA200AE3EBF /* Reciplease2.xcdatamodel */,
+				62B06E6D265BA3C600FE7E69 /* RecipesContainer.xcdatamodel */,
 			);
-			currentVersion = 6241CE1A26341CA200AE3EBF /* Reciplease2.xcdatamodel */;
-			path = Reciplease2.xcdatamodeld;
+			currentVersion = 62B06E6D265BA3C600FE7E69 /* RecipesContainer.xcdatamodel */;
+			path = RecipesContainer.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
 		};

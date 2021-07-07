@@ -6,15 +6,27 @@
 //
 
 import SwiftUI
+import CoreData
 
 @main
 struct Reciplease2App: App {
-    let persistenceController = PersistenceController.shared
-
+    
     var body: some Scene {
         WindowGroup {
-            ContentView()
-                .environment(\.managedObjectContext, persistenceController.container.viewContext)
-        }
+            TabView {
+                CookingListView()
+                    .tabItem {
+                        Image(systemName: "list.dash")
+                        Text("Cooking List")
+                    }
+                    
+                FavoritesView()
+                    .tabItem {
+                        Image(systemName: "heart.fill")
+                        Text("favorites")
+                    }
+            }
+    }
     }
 }
+            
