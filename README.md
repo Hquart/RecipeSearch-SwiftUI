@@ -29,7 +29,7 @@
 ## API Requirements
 
 * A private API key and id are required, you can get one from Edamam (https://developer.edamam.com)
-* Paste your key in RecipeService file, "parameters" variable, replace "APIKeys.app_id" and "APIKeys.app_key"
+* Paste your key and in APIKeys.swift file, replace "xxxxxxxxxxxx"values
 
 ## Credits
 
