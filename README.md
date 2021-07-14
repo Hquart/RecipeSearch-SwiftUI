@@ -29,7 +29,7 @@
 ## API Requirements
 
 * A private API key and id are required, you can get one from Edamam (https://developer.edamam.com)
-* Paste your key and in APIKeys.swift file, replace "xxxxxxxxxxxx"values
+* Paste your key and ID in APIKeys.swift file, replace "xxxxxxxxxxxx"values
 
 ## Credits
 
